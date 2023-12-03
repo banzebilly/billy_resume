@@ -1,0 +1,23 @@
+# .dockerignore
+
+# Ignore virtual environment
+.venv/
+venv/
+env/
+
+.env
+# Ignore media and static files
+media/
+static/
+
+# Ignore database
+db.sqlite3
+
+# Ignore local configuration files
+.env
+local_settings.py
+
+# Ignore IDE/editor configuration
+.vscode/
+.idea/
+*.iml

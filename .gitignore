@@ -1,0 +1,43 @@
+# .gitignore
+db.sqlite3
+migrations/
+
+# Ignore virtual environment
+venv/
+env/
+venv
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the local settings file
+.env
+*.env
+
+# Ignore database
+db.sqlite3
+
+# Ignore static files directory
+staticfiles/
+
+# Ignore media files
+media/
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore Django migrations
+**/migrations/
+
+# Ignore secret keys
+*.key
+
+# Ignore coverage reports
+.coverage
+htmlcov/
+
+# Ignore logs
+*.log
