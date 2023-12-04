@@ -31,7 +31,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = config('SECRET_KEY')
+SECRET_KEY = config('SECRET_KEY', default='32a39eef8203f40fe83e3613754b79420390f743a88f7975c50395e15d109382')
 
 DATABASE_URL = config('DATABASE_URL')
 
